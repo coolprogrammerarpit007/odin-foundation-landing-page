@@ -1,0 +1,193 @@
+
+/* ****************************************************** */
+/* ******* Boiler Plate */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+
+/* ********************************************************** */
+
+
+/* ********************************************************** */
+/* *********************************************************** */
+
+/* Style Guide  */
+
+/* dark background color (hero and footer) */
+/* #1F2937 */
+
+/* Hero Main Text */
+/* 48px extra-bold #F9FAF8 */
+
+/* Hero Secondary text, Header Link Text */
+/* #18px #E5E7EB */
+
+/* Header Logo Text */
+/* 24px #F9FAF8 */
+
+/* Button Color, cta btn */
+/* #3882F6 */
+
+/* Information Header Text */
+/* 36px  extra-bold #1F2937 */
+
+/* Quote Section Background Color */
+/* #E5E7EB */
+
+/* Quote text */
+/* 36px light italic #1F2937 */
+
+/* *********************************************** */
+/* *********************************************** */
+
+/* End of styling guide */
+
+/* ********************************************************* */
+/* ********************************************************* */
+
+/* Styling the navigation bar */
+
+.navbar{
+    padding: 1rem 1rem;
+    background-color: rgb(239, 156, 102);
+    }
+    
+.nav-container{
+    padding: 1rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40rem;
+}
+
+.logo{
+    flex-basis: 25%;
+}
+
+.links{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5rem;
+    text-transform: capitalize;
+    font-size: 2rem;
+    flex-basis: 60%;
+}
+
+.link{
+    /* border:1px solid sienna; */
+    background-color:white ;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 0.5rem;
+    }
+    
+    
+    .link>a{
+    display: inline-block;
+    text-decoration: none;
+    color: seagreen;
+    width: 100%;
+    padding: 1rem 3rem;
+    transition: all 0.7s;
+    }
+
+    .link>a:hover{
+        background-color: seagreen;
+        color: white;
+    }
+    
+
+
+    /* *************************************************** */
+    /* *************************************************** */
+
+    /* End of navigation section */
+
+    /* Start of header mode section */
+
+    /* Hero Section Image Container */
+
+    .header-section{
+        padding: 1rem 1rem;
+    }
+
+    .header-container{
+        padding: 1rem 1rem;
+    }
+    .hero-image-container{
+        width:30%;
+    }
+
+    .hero-image-container img{
+        width: 100%;
+        height: auto;
+        border-radius: 0.5rem;
+    }
+
+
+
+
+    .header-content{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        /* border:1px solid red; */
+        flex-basis: 50%;
+    }
+
+    .hero-title{
+        width: 40%;
+    }
+
+    .hero-title h1{
+        font-size: 3.5rem;
+        color: #fff;
+        word-break: break-all;
+        line-height: 1.3;
+        text-transform: capitalize;
+    }
+
+    .hero-description{
+        width: 70%;
+    }
+    .hero-description p{
+        color: #fff;
+        font-size: 1.7rem;
+    }
+
+    .btn{
+        width: 20%;
+        padding: 1rem;
+        border: none;
+        text-transform: capitalize;
+        background-color: seagreen;
+        color: rgb(239, 156, 102);
+        border-radius: 0.5rem;
+        cursor: pointer;
+    }
+
+
+    .header-section{
+        background-color:rgb(239, 156, 102) ;
+    }
+    .header-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
